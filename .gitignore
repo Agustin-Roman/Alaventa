@@ -1,0 +1,30 @@
+*.txt
+
+/otros 
+
+
+# Dependencias
+node_modules/
+
+# Builds / bundles
+dist/
+build/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (nunca subir claves)
+.env
+*.env
+
+# Logs
+*.log
+
+# Cachés
+.cache/
+.vscode/
+.idea/
+
+# Archivos generados por Git
+*.orig

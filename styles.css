@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #1a1a1a;
     color: #d3d3d3;
 }
@@ -66,4 +66,70 @@ body {
     height: 150px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
+} */
+
+
+/* Tema oscuro elegante - 2025 */
+body {
+    background-color: #0d1117;
+    color: #e6edf3;
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    letter-spacing: -0.5px;
+} 
+/*     font-weight: 300;
+ */
+
+/* Tarjetas de producto */
+.card {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    background-color: #21262d;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    color: #ffffff;
+    font-size: 1.4rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    color: #8b949e;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Precio destacado */
+.price {
+    font-size: 1.9rem;
+    font-weight: 600;
+    color: #39ff14;
+    margin: 0;
+}
+
+/* Responsive fino */
+@media (max-width: 768px) {
+    .card-img-top { height: 180px; }
+    .price { font-size: 1.6rem; }
 }
