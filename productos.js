@@ -25,6 +25,6 @@ const productos = [
     nombre: "Machete", 
     descripcion: "Descripción pendiente", 
     precio: 45000, 
-    imagen: "/imgs/machete.jpg" 
+    imagen: "imgs/machete.jpg" 
   }
 ];
