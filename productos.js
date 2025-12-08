@@ -1,37 +1,42 @@
+
 const productos = [ 
-  { 
-    id: 1, 
-    nombre: "Portátil", 
-    descripcion: "Notebook de alto rendimiento con 16GB de RAM", 
-    precio: 999.99, 
-    imagen: "https://via.placeholder.com/300x150?text=Portatil" 
+  {
+    id: 1,
+    nombre: "Cuchillos",
+    descripcion: "Cuchillos de sierra vieja y machte de 4mm",
+    precio: 1,
+    imagen: "./imgs/cuchillo1.jpg"
   },
-  { 
-    id: 2, 
-    nombre: "Smartphone", 
-    descripcion: "Celular moderno con 128GB de almacenamiento interno", 
-    precio: 699.99, 
-    imagen: "https://via.placeholder.com/300x150?text=Smartphone" 
+  {
+    id: 2,
+    nombre: "Amoladora Piezas",
+    descripcion: "El motor funciona el resto no tanto (Gamma)",
+    precio: 10000,
+    imagen: "./imgs/amoladora.jpg"
   },
-  { 
-    id: 3, 
-    nombre: "Auriculares", 
-    descripcion: "Auriculares Bluetooth con cancelación activa de ruido", 
-    precio: 199.99, 
-    imagen: "https://via.placeholder.com/300x150?text=Auriculares" 
+  {
+    id: 3,
+    nombre: "Cucharita",
+    descripcion: "Precio negociable",
+    precio: 99,
+    imagen: "./imgs/cucharita.jpg"
   },
-  { 
-    id: 4, 
-    nombre: "Machete", 
-    descripcion: "Descripción pendiente", 
-    precio: 45000, 
-    imagen: "imgs/machete.jpg" 
+  {
+    id: 4,
+    nombre: "Botellita",
+    descripcion: "Como una botella normal pero más chiquita",
+    precio: 1000,
+    imagen: "./imgs/botellita.jpg"
   },
-  { 
-    id: 5, 
-    nombre: "Machete", 
-    descripcion: "Descripción pendiente", 
-    precio: 45000, 
-    imagen: "./imgs/machete.jpg" 
+  {
+    id: 5,
+    nombre: "Ovo",
+    descripcion: "?",
+    precio: 18,
+    imagen: "./imgs/ovo.jpg"
   }
+
+
 ];
+
+/*  */
